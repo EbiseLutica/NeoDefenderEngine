@@ -18,6 +18,6 @@ namespace NeoDefenderEngine
         /// <summary>
         /// レベルの説明を取得または設定します。
         /// </summary>
-        public int Desc { get; set; }
+        public string Desc { get; set; }
     }
 }
