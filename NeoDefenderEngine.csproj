@@ -10,4 +10,10 @@
     <PackageReference Include="DotFeather.Router" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include=".\Resources\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

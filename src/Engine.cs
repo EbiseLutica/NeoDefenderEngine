@@ -14,7 +14,7 @@ namespace NeoDefenderEngine
 
         protected override void OnLoad(object sender, EventArgs e)
         {
-
+            
         }
 
         protected override void OnUpdate(object sender, DFEventArgs e)

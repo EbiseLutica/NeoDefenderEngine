@@ -1,0 +1,47 @@
+﻿[
+	{
+		"PosX": 16,
+		"PosY": 1552,
+		"Tag": null,
+		"ZIndex": 0,
+		"EntityID": 0,
+		"EntityData": { "SpawnFromDoor": false, "TargetDoorTag": "" }
+	}, { "PosX": 288, "PosY": 1456, "Tag": null, "ZIndex": 0, "EntityID": 22, "EntityData": { "EntityType": 1 } },
+	{ "PosX": 640, "PosY": 1376, "Tag": null, "ZIndex": 0, "EntityID": 28, "EntityData": { "WorkingType": 0 } },
+	{ "PosX": 1024, "PosY": 1136, "Tag": null, "ZIndex": 0, "EntityID": 28, "EntityData": { "WorkingType": 0 } },
+	{ "PosX": 1040, "PosY": 1136, "Tag": null, "ZIndex": 0, "EntityID": 28, "EntityData": { "WorkingType": 0 } },
+	{ "PosX": 1216, "PosY": 1104, "Tag": null, "ZIndex": 0, "EntityID": 28, "EntityData": { "WorkingType": 0 } },
+	{ "PosX": 1232, "PosY": 1104, "Tag": null, "ZIndex": 0, "EntityID": 28, "EntityData": { "WorkingType": 0 } },
+	{ "PosX": 1488, "PosY": 1120, "Tag": null, "ZIndex": 0, "EntityID": 22, "EntityData": { "EntityType": 10 } },
+	{ "PosX": 1488, "PosY": 1184, "Tag": null, "ZIndex": 0, "EntityID": 22, "EntityData": { "EntityType": 0 } },
+	{
+		"PosX": 64,
+		"PosY": 1568,
+		"Tag": null,
+		"ZIndex": 0,
+		"EntityID": 89,
+		"EntityData": {
+			"Script":
+				"[enstop]\u000d\u000a[mesbox:up]\u000d\u000a[mes:この先　リファクタ山]\u000d\u000a[mes:落石に注意]\u000d\u000a[mesend]\u000d\u000a[enstart]",
+			"TextureFile": "spsign.png",
+			"Width": 16,
+			"Height": 16,
+			"StartIndex": 1,
+			"EndIndex": 0,
+			"Speed": 0,
+			"UseAnime": false
+		}
+	}, { "PosX": 656, "PosY": 1360, "Tag": null, "ZIndex": 0, "EntityID": 28, "EntityData": { "WorkingType": 0 } },
+	{ "PosX": 2192, "PosY": 1456, "Tag": "", "ZIndex": 0, "EntityID": 18, "EntityData": { "NextStage": 5 } },
+	{ "PosX": 848, "PosY": 1232, "Tag": null, "ZIndex": 0, "EntityID": 15, "EntityData": null },
+	{ "PosX": 800, "PosY": 1296, "Tag": null, "ZIndex": 0, "EntityID": 15, "EntityData": null },
+	{ "PosX": 688, "PosY": 1328, "Tag": null, "ZIndex": 0, "EntityID": 15, "EntityData": null },
+	{ "PosX": 775, "PosY": 1146, "Tag": null, "ZIndex": 0, "EntityID": 15, "EntityData": null },
+	{ "PosX": 1488, "PosY": 1088, "Tag": null, "ZIndex": 0, "EntityID": 14, "EntityData": null },
+	{ "PosX": 1584, "PosY": 1264, "Tag": null, "ZIndex": 0, "EntityID": 16, "EntityData": null },
+	{ "PosX": 1696, "PosY": 1280, "Tag": null, "ZIndex": 0, "EntityID": 16, "EntityData": null },
+	{ "PosX": 1559, "PosY": 1120, "Tag": null, "ZIndex": 0, "EntityID": 16, "EntityData": null },
+	{ "PosX": 1760, "PosY": 1312, "Tag": null, "ZIndex": 0, "EntityID": 4, "EntityData": null },
+	{ "PosX": 1840, "PosY": 1360, "Tag": null, "ZIndex": 0, "EntityID": 4, "EntityData": null },
+	{ "PosX": 2105, "PosY": 1323, "Tag": null, "ZIndex": 0, "EntityID": 16, "EntityData": null }
+]
