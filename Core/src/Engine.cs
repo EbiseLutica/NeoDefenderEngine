@@ -9,7 +9,7 @@ namespace NeoDefenderEngine
         public Engine(int width, int height, string title = null, int refreshRate = 60) : base(width, height, title, refreshRate)
         {
             router = new Router(this);
-            router.ChangeScene<TitleScene>();
+            router.ChangeScene<SoundTestScene>();
         }
 
         protected override void OnLoad(object sender, EventArgs e)

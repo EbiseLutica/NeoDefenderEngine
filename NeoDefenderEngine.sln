@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotFeather.Audio.Groorine", "DotFeather.Audio.Groorine", "{92E84C4B-56A9-4A08-827F-45DC1C5FD420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotFeather.Audio.Groorine", "DotFeather.Audio.Groorine\src\DotFeather.Audio.Groorine.csproj", "{72C2BD13-CA07-4857-AEF6-2660A4918C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoDefenderEngine", "Core\NeoDefenderEngine.csproj", "{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Debug|x64.Build.0 = Debug|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Debug|x86.Build.0 = Debug|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Release|x64.ActiveCfg = Release|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Release|x64.Build.0 = Release|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Release|x86.ActiveCfg = Release|Any CPU
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72}.Release|x86.Build.0 = Release|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Debug|x64.Build.0 = Debug|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Debug|x86.Build.0 = Debug|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Release|x64.ActiveCfg = Release|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Release|x64.Build.0 = Release|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Release|x86.ActiveCfg = Release|Any CPU
+		{AFA2CA22-8D1D-4B0F-940A-C0EA2CD6DB3B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72C2BD13-CA07-4857-AEF6-2660A4918C72} = {92E84C4B-56A9-4A08-827F-45DC1C5FD420}
+	EndGlobalSection
+EndGlobal
