@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using DotFeather;
 using DotFeather.Router;
 
@@ -9,7 +10,11 @@ namespace NeoDefenderEngine
         public Engine(int width, int height, string title = null, int refreshRate = 60) : base(width, height, title, refreshRate)
         {
             router = new Router(this);
-            router.ChangeScene<SoundTestScene>();
+            router.ChangeScene<MapScene>(new Dictionary<string, object>
+            {
+                { "level", 1 },
+                { "area", 1 }, 
+            });
         }
 
         protected override void OnLoad(object sender, EventArgs e)
