@@ -50,6 +50,10 @@ namespace NeoDefenderEngine
             Root.Add(backMap);
             Root.Add(entityLayer = new Container());
             Root.Add(frontMap);
+
+            player = new AudioPlayer();
+            var source = new GroorineAudioSource(File.OpenRead($"./Resources/Music/{areadat.Music}"));
+            player.Play(source);
         }
 
         public override void OnUpdate(Router router, DFEventArgs e)
@@ -106,6 +110,7 @@ namespace NeoDefenderEngine
             frontMap.Destroy();
             backMap.Destroy();
             entityLayer.Destroy();
+            player.Dispose();
             foreach (var t in textures) t.Dispose();
         }
 
@@ -120,6 +125,8 @@ namespace NeoDefenderEngine
         private Point prevPoint;
 
         private int l, a;
+
+        private AudioPlayer player;
     }
 
 }

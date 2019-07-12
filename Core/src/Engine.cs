@@ -10,7 +10,7 @@ namespace NeoDefenderEngine
         public Engine(int width, int height, string title = null, int refreshRate = 60) : base(width, height, title, refreshRate)
         {
             router = new Router(this);
-            router.ChangeScene<MapScene>(new Dictionary<string, object>
+            router.ChangeScene<SoundTestScene>(new Dictionary<string, object>
             {
                 { "level", 1 },
                 { "area", 1 }, 
